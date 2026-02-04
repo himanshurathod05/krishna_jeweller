@@ -1,0 +1,80 @@
+.mainContainer{
+  height: 500px;
+  width: 650px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -100px;
+}
+.imageContainer{
+  width: 325px;
+  height: 100%;
+}
+.image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.formContainer{
+  width: 325px;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.formContainer h2{
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.form input{
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.form button{
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(107, 107, 240);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 15px 0;
+}
+.form button:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+  box-shadow: 0 0 5px grey;
+}
+.socialLogin{
+  display: flex;
+  justify-content: space-between;
+}
+.socialLogin button{
+  width: 48%;
+  padding: 10px;
+  background-color: rgb(220, 220, 220);
+  color: black;
+  border: none;
+  cursor: pointer;
+  gap: 10px;
+}
+.socialLogin button:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+  box-shadow: 0 0 5px grey;
+}
+.noAccount{
+  margin-top: 130px;
+  font-size: 13px;
+}
+.noAccount a{
+  text-decoration: none;
+  color: rgb(107, 107, 240);
+}
+.noAccount a{
+  cursor: pointer;
+}

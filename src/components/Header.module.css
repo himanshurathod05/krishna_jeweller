@@ -1,0 +1,111 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+}
+.logo{
+  margin-left: 100px;
+  margin-top: 15px;
+}
+.image{
+  height: 100px;
+  width: 140px;
+  background-color:transparent;
+}
+.input{
+  display: flex;
+  align-items: center;
+}
+.inputText{
+  width: 420px;
+  padding: 16px 10px;
+  border-radius: 20px 0 0 20px;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  background-color: rgb(245, 244, 244);
+}
+.searchIcon{
+  font-size: 21px;
+  background-color: rgb(245, 244, 244);
+}
+.input span{
+  border-radius: 0px 20px 20px 0;
+  padding: 11px 10px;
+  background-color: rgb(245, 244, 244); 
+}
+.interaction{
+  margin-right: 100px;
+}
+.interaction a{
+  color: black;
+
+}
+.user{
+  font-size: 21px;
+}
+.user:hover{
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+.heart{
+  font-size: 21px;
+  margin-left: 15px;
+}
+.heart:hover{
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+.shoppingBag{
+  font-size: 21px;
+  margin-left: 15px;
+}
+.shoppingBag:hover{
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  width: 380px;
+  border-radius: 16px;
+  padding: 24px;
+  position: relative;
+  animation: scaleIn 0.3s ease;
+}
+
+.close {
+  position: absolute; 
+  top: 22px;
+  right:-190px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.noAccount{
+  text-align: center;
+  margin-top: 15px;
+}
